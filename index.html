@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ChatterBOX BLOGS | E-COMMERCE</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<link rel="icon" href="LOGO.png" >
+<link rel="stylesheet" href="footer.css">
+
+<!--Home CSS 1 bgimg-->
+<style>
+
+    .bgimg{
+        background-image: url('bgimg.jpg'); 
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 660px;
+    }
+    .headerset{padding-top: 140px; box-sizing: border-box;}
+    .headerset h2{font-size: 42px; text-shadow: 0 0 3px #0c0c0c, 0 0 5px #656574;}
+    .headerset h1{font-size: 82px; font-weight: bold;}
+
+
+    @media (max-width: 1000px){
+   .headerset h1{
+    font-size: 40px;} 
+    .bgimg{height:720px}
+    }
+
+
+</style>
+
+<!--Our Services CSS-->
+<style>
+    .ourservices {
+        padding: 100px 0px 60px;
+        height: 700px;
+    }
+    .ourservices h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .rowsetting{
+        margin: 80px 0px !important ;
+    }
+    .imgsetting{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .fa-shopping-cart{
+        margin-top: 22px;
+    }
+    .fa-desktop{
+        margin-top: 28px;
+    }
+    .fa-lock{
+        margin-top: 25px;
+    }
+
+    .rowsetting h2{ 
+        margin-top:20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+        color: #6c6c6c !important;
+    }
+
+    @media (max-width: 768px){
+   .ourservices{
+    height:auto;
+   
+    } }
+
+    
+
+    
+</style>
+
+<!--PORTFOLIO-->
+<style>
+    .portfolio{
+
+        height: auto;
+        width: 100%;
+        padding: 50px 0px 50px;
+    }
+    .portfolio h1{font-size: 50px; font-weight: bold;}    
+    .card {margin-top: 30px;  height:385px ; }
+    .card img{
+            height : 200px;
+    }
+
+    @media(max-width:650px){
+        .card{height:auto}
+        .card h2 {font-size: 20px;}
+
+    }
+    
+
+</style>
+
+
+</head>
+
+<body>
+    <div class="bgimg">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container container1">
+                <a href="index.html" class="navbar-brand text-warning font-weight-bold"> <img src="LOGO.png" height="50px" width="60px"  > ChatterBOX Blogs</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            <div class="collapse navbar-collapse" id="collapsenavbar">
+
+                <ul class="navbar-nav ml-auto text-center">
+                    
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link text-white "><i class="fa fa-home fa-1x text-white " ></i> HOME </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="blog.html" class="nav-link text-white"><i class="fa fa-rss fa-1x text-white"></i> BLOG </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="aboutus.html" class="nav-link text-white"><i class="fa fa-address-book fa-1x text-white"></i> About/ContactUs </a>
+                    </li>
+                    <hr>
+                    <li class="navbar-item loginregister">
+                        <a href="Registration.html" class="nav-link text-white "><i class="fa fa-home fa-1x text-white " ></i> Login/Register </a>
+                    </li>
+                </ul>
+
+                
+
+            </div>
+            
+            </div>
+           <a href="Registration.html"> <span class="login text-danger"><i class="fa fa-sign-in m-2 fa-1x text-danger font-weight-bold"></i>Login</span> </a>
+        </nav>
+        
+        <div class="container  text-center text-white headerset">
+            <img src="LOGO.png" height="130px" width="130px" >
+            <h2>Welcome To ChatterBOX BLOGS</h2>
+            <h1>It's Nice Meeting You.</h1>
+           <a href="blog.html"> <button class="btn btn-warning text-black btn-lg ">Our Blogs</button> </a><br>
+           <a href="#latestblogs"><span> <i class="fa fa-angle-double-down fa-2x text-warning text-center m-3 fa-border rounded-circle"></i></span> </a>
+        </div>
+
+    </div>
+
+    <section class="container ourservices text-center" id="ourservices">
+        <h1>Our Services</h1>
+        <p>Welcome to our ChatterBOX Services</p>
+
+        <div class="row rowsetting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-shopping-cart fa-3x text-white"></i></div> 
+            <h2>E-Commerce</h2>
+            <p>We are working on our E-Commerce Section where you can buy books of your choice. <br>The Name of our E-Commerce that will add on later is "BOOKSHAALA".</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-desktop fa-3x text-white"></i></div> 
+            <h2>Responsive Design</h2>
+            <p>Our Responsive Design will provide you the better experience either you are visiting us on Desktop or Mobile-Phone. <br><br></p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-lock fa-3x text-white"></i></div>            
+            <h2>Security</h2>
+            <p>We will provide the best methods to keep your information safe.<br>We will also let you know the latest security threats that occurred nowadays..</p>
+            </div>
+                                                                                  
+        
+    </section>
+
+    <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\PORTFOLIO\\\\\\\\\\\\\\\\\\-->
+
+    <section class="portfolio bg-light" id="latestblogs">
+        <div class="container text-center">
+            <a href="blog.html"><h1 class="text-danger">Latest Blogs</h1> </a>
+            <p>Here you can find Latest Technology Based Content.</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/15/960x540/s3-news-tmp-90538-pinterest--default--1280_1608009536977_1608009542510.jpg" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Pinterest to pay $22.5 mn to settle gender discrimination suit</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/15/960x540/2020-12-15T015108Z_1_LYNXMPEGBE02H_RTROPTP_3_APPLE-INDIA-WISTRON_1607999956087_1607999970756.JPG" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Apple supplier Wistron puts India plant damage at up to $7 million
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/06/960x540/600mp_1607232432903_1607232448828.jpg" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Samsung is working on a 600-megapixel mobile camera sensor</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/15/960x540/2020-12-14T235850Z_1004626267_RC2BNK9ZE8IF_RTRMADP_3_BRITAIN-TECH-REGULATIONS_1608002397612_1608002415407.JPG" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Facebook, Twitter face British fines if fail on harmful content</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/06/960x540/Cyber_security_1607258714774_1607258744312.jpg" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">UAE target of cyber-attacks after Israel deal</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/12/14/960x540/2020-12-14T043102Z_1_LYNXMPEGBD071_RTROPTP_3_APPLE-CYDIA-LAWSUIT_1607933457283_1607933484544.JPG" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Google, Apple are banning tech that tracked you for years</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Screenshot_2020-12-05_at_12.16_1200x768.png?zqCXVBDgNTFoGyEFVsPfDBqdhePJxN84&size=770:433" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Apple announces free repair program for iPhone 11 users having touchscreen issues</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/pubg_mobile_india_release_1200x768.jpeg?EpXMUjwcl5sldwbuE8LENeEt90zA0oqb&size=770:433" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">PUBG Mobile India release could be delayed, makers waiting for govt's nod</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="https://images.hindustantimes.com/tech/img/2020/11/27/960x540/image_-_2020-09-28T130227.120_1601278410229_1601278414788_1601278431919_1606478680856.jpg" class="card-img img-fluid">
+                    <div class="card-body">
+                        <h2 class="card-title">Indian vaccine makers, healthcare institutions targeted by cyber attackers</h2>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        </div>
+        
+    </section>
+
+    <section class="ourteam m-4" id="ourteam1">
+        <div class="container text-center">
+            <h1>OUR AMAZING TEAM</h1>
+            <p>We are working on this website to share our TECHNICAL KNOWLEDGE with you.</p>
+            
+            <div class="row font-weight-bold">
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block mt-4">
+                    <figure class="figure">
+                        <img src="sparsh.JPG" class="figure-img img-fluid rounded-circle" height="250px" width="250px" >
+                        
+                        <figcaption>
+                            <h4>SPARSH GOYAL</h4>
+                            <p>Web Developer</p>
+                            <p>(Team Leader)</p>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block mt-4">
+                    <figure class="figure">
+                        <img src="chirag.JPG" class="figure-img img-fluid rounded-circle" height="250px" width="250px" >
+                        
+                        <figcaption>
+                            <h4>CHIRAG GUPTA</h4>
+                            <p>Web Designer</p>
+                            <p>(Team Member)</p>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block mt-4">
+                    <figure class="figure">
+                        <img src="sagar.JPG" class="figure-img img-fluid rounded-circle" height="250px" width="250px" >
+                        
+                        <figcaption>
+                            <h4>SAGAR</h4>
+                            <p>Content Creator</p>
+                            <p>(Team Member)</p>
+
+                        </figcaption>
+
+                    </figure>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer_style">
+<main class="container-fluid">
+ <div class="row p-3">
+  <div class="col-md-4 col-12 offset-md-1 "> 
+      <h3>Quote</h3>
+   <p class="mt-2 text-justify"> “Successful blogging is not about one time hits.<br>It’s about building a loyal following over time.” <br> </p>
+   
+       <img class="footerimg" src="LOGO.png"  height="150px" width="150px" >
+  
+    </div>
+
+  <div class="col-md-3 col-12">
+    <h4 id="contact">Contact Us</h4>
+              <dl>
+                <dt>Address:</dt>
+                <dd> <a href="https://goo.gl/maps/vuW2SeoPbNUaBQWEA" target="blank" > <i class="fa fa-map text-white"></i> New Delhi ,India</a></dd>
+              </dl>
+              <dl>
+                <dt>E-mail:</dt>
+                <dd><a href="mailto:famousthings999@gmail.com"><i class="fa fa-envelope fa-1x text-white"></i> famousthings999@gmail.com</a></dd>
+              </dl>
+              <dl>
+                <dt id="contact">Contact:</dt>
+                <dd>     <a href="tel: +91 8287618649"><i class="fa fa-phone fa-1x text-white"></i> +91 8287618649</a> 
+                    <br> <a href="tel: +91 9711672424"><i class="fa fa-phone fa-1x text-white"></i> +91 9711672424</a>
+                    <br> <a href="tel: +91 9599463675"><i class="fa fa-phone fa-1x text-white"></i> +91 9599463675</a>
+                </dd>
+              </dl>
+  </div>
+
+  <div class="col-md-2 col-12 links ">
+   <h4>Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#ourservices">Services</a></li>
+                <li><a href="#ourteam1">Team</a></li>
+                <li><a href="blog.html"> Latest Blogs</a></li>
+                <li><a href="Registration.html">Login/Register</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+  </div>
+ </div>
+
+ <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
+   <div class="p-md-3 p-2 flex-fill ">
+   <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> <span>Facebook</span> </a> </div>
+
+   <div class="p-md-3 p-2 flex-fill ">
+       <a href="#">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+       <span>Instagram</span>
+        </a>
+    </div>
+
+   <div class="p-md-3 p-2 flex-fill "><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></div>
+
+   <div class="p-md-3 p-2 flex-fill "><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i><span>Youtube</span></a></div>
+ </div>
+ <hr style="background-color: white;">
+ <p class="text-capitalize text-center "> &#169 2020 SCSS_IndiaTechnologies. All Rights Reserved. </p>
+</main>
+</footer>
+
+</body>
+
+</html>
